@@ -71,8 +71,10 @@
 			   if(validate(t) == 0) return;
 			   
 			   var result = calculate(t,u);
-			   
-			   alert("Temperature is "+t1+" in "+u1);
+
+			   //alert("Temperature is "+t1+" in "+u1);
+				$("#result").html("temperaturn is <b>" +result.temp+
+					"</b> in " +result.unit)
 			});
 		});
 	</script>
